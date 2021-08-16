@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'iransans';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../font/eot/IRANSansWebFaNum.eot"),
+        url("../font/ttf/IRANSansWebFaNum.ttf"),
+        url("../font/woff/IRANSansWebFaNum.woff"),
+        url("../font/woff2/IRANSansWebFaNum.woff2")
+}
+
+body {
+    font-family: 'iransans';
+    font-size: 15px;
+    direction: rtl;
+}

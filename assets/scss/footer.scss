@@ -1,0 +1,112 @@
+footer {
+    .sub_tlt {
+        font-size: 28px;
+        line-height: 2em;
+        font-weight: bold;
+        color: #0B3A42;
+    }
+
+    @media(min-width:767px) {
+        .slider_sec {
+            /* background: #e3e3e3; */
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            padding: 4px;
+
+            .carousel {
+                position: relative;
+                width: 100%;
+                height: 64px;
+                margin: 0 auto;
+                direction: ltr;
+
+                &:hover {
+                    .nav {
+                        opacity: 1;
+                    }
+                }
+
+                .carousel-content {
+                    position: relative;
+                    overflow: hidden;
+                    transition: width 0.4s;
+                    height: 100%;
+
+                    .slide {
+                        height: 100%;
+                        /* background-color: #aaa; */
+                        position: absolute;
+                        z-index: 1;
+                        transition: left 0.4s cubic-bezier(0.47, 0.13, 0.15, 0.89);
+                        text-align: center;
+
+                        img {
+                            filter: grayscale(1);
+
+                            &:hover {
+                                filter: saturate(2165%);
+                            }
+                        }
+                    }
+                }
+
+                .nav {
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -10px;
+                    background-color: rgba(150, 150, 150, 0.3);
+                    width: 30px;
+                    height: 30px;
+                    z-index: 2;
+                    cursor: pointer;
+                    border-radius: 50%;
+                    border: none;
+                    outline: none;
+                    color: white;
+                    -webkit-user-select: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    opacity: 0;
+                    transition: 0.5s;
+
+                    &:hover {
+                        background: #1fc5b9;
+                    }
+
+                }
+                .nav-left {
+                    left: -40px;
+
+                    img {
+                        transform: rotate(90deg);
+                    }
+                }
+
+                .nav-right {
+                    right: -40px;
+
+                    img {
+                        transform: rotate(-90deg);
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+    @media(max-width:767px) {
+        .slider_sec {
+            .carousel {
+                
+            }
+        }
+
+        .slide {
+            display: contents;
+        }
+    }
+}

@@ -1,0 +1,189 @@
+.register-form {
+    justify-content: center;
+
+    &_tlt {
+        font-weight: bold;
+        text-align: right;
+        display: flex;
+        align-items: center;
+        font-size: 28px;
+        line-height: 2em;
+    }
+
+    &_desc {
+        line-height: 3em;
+    }
+
+    .register-form_sec {
+        border-radius: 10px;
+        margin-bottom: 2rem;
+
+        @media(min-width:767px) {
+            background-color: rgb(245 247 250);
+            padding: 1rem 1rem;
+        }
+
+        @media(max-width:767px) {
+            padding: 1rem;
+        }
+
+        .register-form {
+
+            &_item {
+                margin-bottom: 1rem;
+                display: flex;
+                align-items: center;
+
+                select {
+                    width: 100%;
+                    height: 40px;
+                    border-radius: 12px;
+                    border: 1px solid #e2e6e9;
+                    outline: none;
+                }
+
+                label {
+                    margin-left: 8px;
+                    width: 100px;
+
+                    @media(max-width:767px) {
+                        display: none;
+                    }
+
+                    span {
+                        color: #1fc5b9;
+                        font-weight: bold;
+                        font-size: 20px;
+                    }
+                }
+
+                input {
+                    display: flex;
+                    width: 100%;
+                    padding: .375rem .75rem;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    color: #212529;
+                    background-color: #fff;
+                    background-clip: padding-box;
+                    border: 1px solid #ced4da;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    appearance: none;
+                    border-radius: 12px;
+                    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+                    height: 40px;
+                }
+
+                &_tlt {
+                    position: relative;
+                    font-size: 20px;
+                    margin-bottom: 2rem;
+                    padding-top: 10px;
+
+                    &:after {
+                        position: absolute;
+                        content: '';
+                        top: -2px;
+                        bottom: 0;
+                        width: 8px;
+                        height: 40px;
+                        background: #1fc5b9;
+                        border-radius: 8px 0 0 8px;
+
+                        @media(min-width:767px) {
+                            right: -16px;
+                        }
+
+                        @media(max-width:767px) {
+                            right: 0;
+                        }
+                    }
+
+                    @media(max-width:767px) {
+                        padding-right: 1rem;
+                    }
+
+                    @media(min-width:767px) {}
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+.file-input {
+    text-align: left;
+    background: #fff;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    border-radius: 12px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #eef2f7;
+
+    &:hover {
+        border: 2px solid #1fc5b9;
+    }
+
+    &:hover>.button {
+        background: #1fc5b9;
+        color: white;
+    }
+
+    &>[type="file"] {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        z-index: 10;
+        cursor: pointer;
+    }
+
+    &>.button {
+        display: inline-block;
+        cursor: pointer;
+        background: #eef2f7;
+        padding: 0 16px;
+        border-radius: 2px;
+        margin-right: 8px;
+        color: #9db0cb;
+        border-radius: 12px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    &>.label {
+        color: #1fc5b9;
+        white-space: nowrap;
+        opacity: 0.3;
+        padding-right: .75rem;
+        font-size: 16px;
+    }
+
+    &>.label {
+        opacity: 1;
+    }
+}
+
+.error .input {
+    border: 1px solid red !important;
+    color: red;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: no-drop;
+    opacity: .65;
+}

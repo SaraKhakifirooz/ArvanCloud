@@ -1,0 +1,34 @@
+.color_gray {
+    color: #9DB0CB;
+}
+
+
+@media (max-width: 767px) {
+    .d-xs-grid {
+        display: grid;
+    }
+
+    .mobile_slider {
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .mobile_slider .max-width {
+        width: intrinsic;
+        width: -moz-max-content;
+        width: -webkit-max-content;
+        width: max-content;
+    }
+
+    .mobile_slider .max-width li {
+        width: intrinsic;
+        width: -moz-max-content;
+        width: -webkit-max-content;
+        width: max-content;
+    }
+
+    .project-list .project-list_tabsec {
+        display: grid;
+    }
+}

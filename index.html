@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <title>MyForm</title>
+</head>
+
+<body>
+    <header class="w-100 pb-5 pt-3 d-lg-block d-none">
+        <div class="container">
+            <div class="d-flex w-100 justify-content-between">
+                <div class="d-flex">
+                    <div>
+                        <img src="./assets/img/logo.svg" alt="">
+                    </div>
+                    <div>
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="navbar-brand" href="#"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                                <ul class="navbar-nav">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">محصولات </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">بازارچه </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">مستندات </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">زیست بوم </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">قیمت </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div>
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown2" aria-controls="navbarNavDropdown2"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown2">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">ورود</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">ثبت نام </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">فارسی </a>
+                                </li>
+                                <li class="nav-item">
+                                    <img src="./assets/img/phone.svg" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="w-100">
+                <h1>چالش ابر آروان</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="w-100">
+
+        <div class="w-100 project-list d-flex">
+            <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12">
+                <div class="w-100 row">
+                    <div class="w-100 row">
+                        <div class="project-list_tlt w-100">
+                            فهرست پروژه ها
+                        </div>
+                        <div class="w-100 project-list_tlt_desc">
+                            با فهرست پروژه ها در جریان ابر آروان بیشتر آشنا شوید
+                        </div>
+                    </div>
+                    <div class="project-list_tabsec">
+                        <div class="w-100 mobile_slider">
+                            <ul class="nav nav-pills max-width" id="pills-tab"
+                                role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="proj1" data-bs-toggle="pill"
+                                        data-bs-target="#pills-proj1" type="button" role="tab"
+                                        aria-controls="pills-proj1" aria-selected="true">
+                                        <img src="./assets/img/pencil.svg" alt="">
+                                        پروژه های فعال
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link " id="proj2" data-bs-toggle="pill"
+                                        data-bs-target="#pills-proj2" type="button" role="tab"
+                                        aria-controls="pills-proj2" aria-selected="false">
+                                        <img src="./assets/img/loader.svg" alt="">
+                                        در حال ارزیابی</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="proj3" data-bs-toggle="pill"
+                                        data-bs-target="#pills-proj3" type="button" role="tab"
+                                        aria-controls="pills-proj3" aria-selected="false">
+                                        <img src="./assets/img/check.svg" alt="">پروژه ها اجرا شده</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content border-radus12" id="pills-tabContent">
+                            <div class="tab-pane fade  show active" id="pills-proj1" role="tabpanel"
+                                aria-labelledby="proj1">
+                                <div class="accordion" id="accordionExample">
+
+                                    <div class="tab-pane-item">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                Drupal Plugin
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body desc">
+                                                <div class="row justify-content-center w-100">
+                                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="w-100 tab-pane-item_box">
+                                                            <img src="./assets/img/file-plus.svg" alt="">
+                                                            <div class="tlt">درخواست دهنده</div>
+                                                            <div class="expln">تیم CND</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="w-100 tab-pane-item_box">
+                                                            <img src="./assets/img/arrow-up-circle.svg" alt="">
+                                                            <div class="tlt">روش اجرا و ارائه</div>
+                                                            <div class="expln">OpenSource/Github</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="w-100 tab-pane-item_box">
+                                                            <img src="./assets/img/code.svg" alt="">
+
+                                                            <div class="tlt">زبان پروژه</div>
+                                                            <div class="expln">Pyton</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="w-100 tab-pane-item_box">
+                                                            <img src="./assets/img/dollar-sign.svg" alt="">
+                                                            <div class="tlt">مبلغ پروژه</div>
+                                                            <div class="expln">10.000.000 ریال</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row w-100 btm_desc my-5">
+                                                    <div class="col-md-1 d-flex justify-content-center">
+                                                        <img class="d-md-block d-none" src="./assets/img/edit.svg" alt="">
+                                                    </div>
+                                                    <div class="col-md-11 col-11">
+                                                        <div class="tlt w-100 d-flex align-items-center">
+                                                        <img class="d-block d-md-none ms-2" src="./assets/img/edit.svg" alt="">
+                                                            شرح پروژه </div>
+                                                        <ul>
+                                                            <li>
+                                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                                                                چاپ و
+                                                                با استفاده از طراحان گرافیک است چاپگرها و متون بلکه
+                                                                روزنامه
+                                                                و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                                                تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود
+                                                                ابزارهای
+                                                                کاربردی می باشد
+                                                            </li>
+                                                            <li>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                                                                چاپ و
+                                                                با استفاده از طراحان گرافیک است</li>
+                                                            <li>
+                                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                                                                چاپ و
+                                                                با استفاده از طراحان گرافیک است چاپگرها و متون بلکه
+                                                                روزنامه
+                                                                و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                                                تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود
+                                                                ابزارهای
+                                                                کاربردی می باشد
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="w-100 github_sec">
+                                                    <div>
+                                                        <img src="./assets/img/github.svg" alt="">
+                                                        <div>
+                                                            <div class="tlt">صفحه گیت هاب</div>
+                                                            <div class="link">https://github.com/features/</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="github_sec_auther">
+                                                        <img src="./assets/img/glob.ico" alt="">
+                                                        <div class="name">توسط حسن سیدی</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane-item">
+                                        <h2 class="accordion-header" id="headingZero">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseZero"
+                                                aria-expanded="false" aria-controls="collapseZero">
+                                                WordPress
+                                            </button>
+                                        </h2>
+                                        <div id="collapseZero" class="accordion-collapse collapse"
+                                            aria-labelledby="headingZero" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body desc">
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
+                                                از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                                                سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
+                                                متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                                                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با
+                                                نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان
+                                                خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید
+                                                داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان
+                                                رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
+                                                پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane-item">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                Drupal Plugin
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body desc">
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
+                                                از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                                                سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
+                                                متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                                                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با
+                                                نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان
+                                                خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید
+                                                داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان
+                                                رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
+                                                پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane-item">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                Migrate From CloudFlare to
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body desc">
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
+                                                از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                                                سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
+                                                متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                                                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با
+                                                نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان
+                                                خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید
+                                                داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان
+                                                رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
+                                                پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane-item">
+                                        <h2 class="accordion-header" id="headingFour">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                                aria-expanded="false" aria-controls="collapseFour">
+                                                Migrate From CloudFlare to
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse"
+                                            aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body desc">
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
+                                                از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                                                سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
+                                                متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                                                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با
+                                                نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان
+                                                خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید
+                                                داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان
+                                                رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
+                                                پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane-item">
+                                        <h2 class="accordion-header" id="headingFive">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                                aria-expanded="false" aria-controls="collapseFive">
+                                                Drupal Plugin
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFive" class="accordion-collapse collapse"
+                                            aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body desc">
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
+                                                از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                                                سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
+                                                متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                                                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با
+                                                نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان
+                                                خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید
+                                                داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان
+                                                رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
+                                                پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane-item">
+                                        <h2 class="accordion-header" id="headingSix">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                                                aria-expanded="false" aria-controls="collapseSix">
+                                                Migrate From CloudFlare to
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSix" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body desc">
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
+                                                از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                                                سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
+                                                متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                                                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با
+                                                نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان
+                                                خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید
+                                                داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان
+                                                رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
+                                                پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane-item">
+                                        <h2 class="accordion-header" id="headingSeven">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                                                aria-expanded="false" aria-controls="collapseSeven">
+                                                Drupal Plugin
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSeven" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body desc">
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
+                                                از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                                                سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
+                                                متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                                                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با
+                                                نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان
+                                                خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید
+                                                داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان
+                                                رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
+                                                پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane-item">
+                                        <h2 class="accordion-header" id="headingEight">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseEight"
+                                                aria-expanded="false" aria-controls="collapseEight">
+                                                Migrate From CloudFlare to
+                                            </button>
+                                        </h2>
+                                        <div id="collapseEight" class="accordion-collapse collapse"
+                                            aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body desc">
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
+                                                از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                                                سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
+                                                متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                                                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با
+                                                نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان
+                                                خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید
+                                                داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان
+                                                رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
+                                                پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade desc font-14 p-2" id="pills-proj2" role="tabpanel"
+                                aria-labelledby="proj2">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                                است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط
+                                فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+                                کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+                                طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و
+                                فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری
+                                موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی
+                                دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار
+                                گیرد.
+                            </div>
+                            <div class="tab-pane fade desc font-14 p-2" id="pills-proj3" role="tabpanel"
+                                aria-labelledby="proj3">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                                است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط
+                                فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+                                کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+                                طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و
+                                فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری
+                                موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی
+                                دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار
+                                گیرد.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100 meeting-structure py-5 d-flex">
+            <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12">
+                <div class="w-100">
+                    <div class="w-100 meeting-structure_tlt my-4">
+                        <img class="ms-2" src="./assets/img/users.svg" alt="">
+                        ساختار جلسات
+                    </div>
+                    <div class="w-100 meeting-structure_desc mb-4 px-3">
+                        لورم ایپسوم متن ساختگی با
+                        تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها
+                        و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط
+                        فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
+                        می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
+                        جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان
+                        رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد،
+                        در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و
+                        شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی،
+                        و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                    </div>
+                </div>
+                <div class="w-100 d-xs-grid">
+                    <div class="w-100 mobile_slider">
+                        <ul class="nav nav-tabs max-width" id="myTab2" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="j1" data-bs-toggle="tab" data-bs-target="#pills-j1"
+                                    type="button" role="tab" aria-controls="#pills-j1" aria-selected="true">جلسات
+                                    استراتژی</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="j2" data-bs-toggle="tab" data-bs-target="#pills-j2"
+                                    type="button" role="tab" aria-controls="#pills-j2" aria-selected="false">جلسات
+                                    حاکمیت
+                                    دایره</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="j3" data-bs-toggle="tab" data-bs-target="#pills-j3"
+                                    type="button" role="tab" aria-controls="#pills-j3" aria-selected="false">جلسات
+                                    اسپرینت/کانیان</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="j4" data-bs-toggle="tab" data-bs-target="#pills-j4"
+                                    type="button" role="tab" aria-controls="#pills-j4" aria-selected="false">جلسات
+                                    محصول</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content mb-4" id="myTabContent2">
+                        <div class="tab-pane meeting-structure_desc fade show active" id="pills-j1" role="tabpanel"
+                            aria-labelledby="j1">
+                            لورم ایپسوم متن ساختگی با
+                            تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها
+                            و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط
+                            فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
+                            می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
+                            جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان
+                            رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد،
+                            در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و
+                            شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی،
+                            و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                        </div>
+                        <div class="tab-pane meeting-structure_desc fade" id="pills-j2" role="tabpanel"
+                            aria-labelledby="j2">
+                            متن ساختگی با
+                            تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها
+                            و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط
+                            فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
+                            می باشد، کتابهای زیادی در شصت و سرو در زبان فارسی ایجاد کرد،
+                            در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و
+                            شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی،
+                            و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                        </div>
+                        <div class="tab-pane meeting-structure_desc fade" id="pills-j3" role="tabpanel"
+                            aria-labelledby="j3">
+                            با
+                            تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها
+                            و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط
+                            فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
+                            می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
+                            جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان
+                            رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد،
+                            در این صورت می توان امید داشت .
+                        </div>
+                        <div class="tab-pane meeting-structure_desc fade" id="pills-j4" role="tabpanel"
+                            aria-labelledby="j4">
+                            سطرآنچنان که لازم است، و برای شرایط
+                            فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
+                            می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
+                            جامعه و متخصصان را می طلبد،
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100 register-form py-5 d-flex">
+            <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12">
+
+                <div class="w-100">
+                    <div class="register-form_tlt px-2">فرم ثبت نام شبکه ابر یارهای آروان</div>
+                    <div class="register-form_desc">
+                        بریارهای آروان در صورتی که مایل باشید می توانید از برای ما رزومه بفرستید، لطفا فرم را پر کنید.
+                    </div>
+                </div>
+
+                <form id="form" class="w-100" novalidate>
+                    <div class="w-100 register-form_sec">
+                        <div class="w-100 register-form_item_tlt">
+                            اطلاعات فردی
+                        </div>
+                        <div class="w-100 row">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 register-form_item field">
+                                <label for=""><span>*</span>نام</label>
+                                <input class="input" data-validation="required" type="text" id="fullname"
+                                    placeholder="نام و نام خانوادگی">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 register-form_item field">
+                                <label for=""><span>*</span>تلفن</label>
+                                <input data-validation="required phone" class="input" id="phone" type="text"
+                                    placeholder="9357778826">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 register-form_item field">
+                                <label for=""><span>*</span>ایمیل</label>
+                                <input data-validation="required email" class="input" id="email" type="text"
+                                    placeholder="Example@gamil.com">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 register-form_item field">
+                                <label for=""><span>*</span>نام شرکت</label>
+                                <input class="input" type="text" id="companyname" placeholder="نام شرکت یا سازمان">
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="w-100 register-form_sec">
+                        <div class="w-100 register-form_item_tlt">
+                            سوابق و تجربیات
+                        </div>
+                        <div class="w-100 row">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-">
+                                <div class="register-form_item w-100 field">
+                                    <label for=""><span>*</span>روزمه </label>
+                                    <!-- <input type="file" > -->
+                                    <div class='file-input'>
+                                        <input type='file' id="resume" data-validation="required" class="input">
+                                        <span class='button'>انتخاب فایل pdf</span>
+                                        <span class='label' data-js-label>
+                                    </div>
+                                </div>
+                                <div class="color_gray text-start font-14">حداکثر حجم مجاز فایل 1 مگابایت باشد</div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <div class="register-form_item w-100 field">
+                                    <label for="">پورتفولیو </label>
+                                    <!-- <input type="file" id="portfolio"> -->
+                                    <div class='file-input'>
+                                        <input type='file' id="portfolio" class="input">
+                                        <span class='button'>انتخاب فایل pdf</span>
+                                        <span class='label' data-js-label>
+                                    </div>
+                                </div>
+                                <div class="color_gray text-start font-14">حداکثر حجم مجاز فایل 1 مگابایت باشد</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-100 register-form_sec">
+                        <div class="w-100 register-form_item_tlt">
+                            توضیحات تکمیلی
+                        </div>
+                        <div class="w-100 row">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 register-form_item field">
+                                <label for="">نوع ابربار</label>
+                                <select name="abryar_kind" id="abryarkind" class="input">
+                                    <option value="a1" selected>ابر یار کوچ ابری</option>
+                                    <option value="a2">ابریار فنی</option>
+                                    <option value="a3">ابریار بازارچه</option>
+                                    <option value="a4">ابریار آموزش</option>
+                                    <option value="a5">ابریار فروش</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 register-form_item field">
+                                <label for="">سطح ابربار</label>
+                                <select name="abar_level" id="abarlevel" class="input">
+                                    <option value="l1" selected>سطح 1</option>
+                                    <option value="l1">سطح 2</option>
+                                    <option value="l1">سطح 3</option>
+                                    <option value="l1">سطح 4</option>
+                                </select>
+                            </div>
+                            <div class="col-12 register-form_item field">
+                                <label for="" class="ms-0">توضیحات</label>
+                                <input class="input" type="text" id="description"
+                                    placeholder="مختصر توضیحاتی در اختیار ما بگذارید">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-end w-100 px-3">
+                        <button class="btn btn-primary mybtnsubmit disabled" id="mybtnsubmit" onclick="sendForm()"
+                            type="button">ثبت
+                            نام</button>
+                        <!-- <button class="btn btn-primary mybtnsubmit disable" onclick="sendForm()" type="button">ثبت نام</button> -->
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="w-100 popular-categories py-5 d-flex">
+            <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12">
+
+                <div class="w-100">
+                    <div class="popular-categories_tlt">دسته‌بندی‌های محبوب بازارچه ابری</div>
+                    <div class="popular-categories_tlt_desc">
+                        بازارچه‌ی ابری آروان، فروشگاهی متشکل از صدها اپلیکیشن و نرم‌افزار ابری که به شما اجازه می‌دهد به
+                        سرعت محصول مورد نیاز خود را یافته و با یک
+                        .کلیک آن را راه‌اندازی کنید و هزینه را تنها بر اساس مصرف‌تان بپردازید </div>
+                </div>
+
+                <div class="w-100">
+                    <div class="w-100 popular-categories_sec">
+
+                        <div class="w-100 row">
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+
+                                <div
+                                    class="popular-categories_sec_card d-flex justify-content-center flex-column align-items-center">
+                                    <img src="./assets/img/favrite/Infrastructure.svg">
+                                    <div class="popular-categories_subtlt">زیرساخت</div>
+                                    <div class="popular-categories_subdesc">
+                                        Infrastructure </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+
+                                <div class="popular-categories_sec_card d-flex justify-content-center flex-column align-items-center">
+                                    <img src="./assets/img/favrite/CMS.svg">
+                                    <div class="popular-categories_subtlt">سیستم مدیریت محتوا</div>
+                                    <div class="popular-categories_subdesc">
+                                        CMS </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+
+                                <div
+                                    class="popular-categories_sec_card d-flex justify-content-center flex-column align-items-center">
+                                    <img src="./assets/img/favrite/Database.svg">
+                                    <div class="popular-categories_subtlt">پایگاه داده</div>
+                                    <div class="popular-categories_subdesc">
+                                        Database </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+
+                                <div
+                                    class="popular-categories_sec_card d-flex justify-content-center flex-column align-items-center">
+                                    <img src="./assets/img/favrite/e-Commerce.svg">
+                                    <div class="popular-categories_subtlt">تجارت الکترونیک</div>
+                                    <div class="popular-categories_subdesc">
+                                        e-Commerce </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+
+                                <div
+                                    class="popular-categories_sec_card d-flex justify-content-center flex-column align-items-center">
+                                    <img src="./assets/img/favrite/e-Learning.svg">
+                                    <div class="popular-categories_subtlt">آموزش الکترونیک</div>
+                                    <div class="popular-categories_subdesc">
+                                        e-Learning </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+
+                                <div
+                                    class="popular-categories_sec_card d-flex justify-content-center flex-column align-items-center">
+                                    <img src="./assets/img/favrite/Bug Tracking.svg">
+                                    <div class="popular-categories_subtlt">Bug Tracking</div>
+                                    <div class="popular-categories_subdesc">
+                                        Bug Tracking </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+
+                                <div
+                                    class="popular-categories_sec_card d-flex justify-content-center flex-column align-items-center">
+                                    <img src="./assets/img/favrite/Customer Care.svg">
+                                    <div class="popular-categories_subtlt">پشتیبانی مشتریان</div>
+                                    <div class="popular-categories_subdesc">
+                                        Customer Care </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+
+                                <div
+                                    class="popular-categories_sec_card d-flex justify-content-center flex-column align-items-center">
+                                    <img src="./assets/img/favrite/Report and Analytics.svg">
+                                    <div class="popular-categories_subtlt">تحلیل و گزارش</div>
+                                    <div class="popular-categories_subdesc">
+                                        Report and Analytics </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="popular-categories_allbtn d-flex justify-content-center mt-3">
+                    <a href="#">مشاهده همه ‌اپلیکیشن‌ها</a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="w-100 sub_tlt text-center">پروژه های موفق</div>
+        <div class="w-100 footer-slider py-5 d-sm-flex">
+            <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 slider_sec">
+                <div class="carousel w-100">
+                    <div class="nav nav-left">
+                        <img src="./assets/img/chevron-down-white.png" alt="">
+                    </div>
+
+                    <div class="carousel-content w-100 text-center">
+                        <div class="slide">
+                            <img src="./assets/img/customers/1.svg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/customers/2.svg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/customers/3.svg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/customers/4.svg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/customers/1.svg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/customers/2.svg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/customers/3.svg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/customers/4.svg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/customers/1.svg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/customers/2.svg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/customers/3.svg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/customers/4.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="nav nav-right">
+                        <img src="./assets/img/chevron-down-white.png" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+    <script src="./assets/js/main.js"></script>
+
+    <script src="./assets/js/basicValidationLogic.js"></script>
+
+    <script src="./assets/js/validation.js"></script>
+
+    <script src="./assets/js/ajax.js" defer></script>
+
+</body>
+
+</html>
